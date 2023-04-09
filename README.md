@@ -21,3 +21,10 @@ dvc add data_given/winequality.csv
 git add .
 
 git commit -m "first commit"
+
+git add . && git commit -m "update README.md"
+
+git remote add origin https://github.com/Nash242/dvc_demo.git
+
+git branch -M main
+
