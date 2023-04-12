@@ -11,3 +11,4 @@ tox
 flake8
 importlib-metadata==4.13.0
 flask
+gunicorn
