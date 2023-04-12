@@ -9,3 +9,4 @@ pandas
 pytest
 tox
 flake8
+importlib-metadata==4.13.0
