@@ -28,3 +28,18 @@ git remote add origin https://github.com/Nash242/dvc_demo.git
 
 git branch -M main
 
+tox command
+'''tox'''
+
+for rebuilding tox
+'''tox -r'''
+
+pytest command
+'''pytest -v'''
+
+setup commands
+''' pip install -e'''
+
+Build your own package commands
+'''python setup.py sdist bdist_wheel'''
+
