@@ -1,7 +1,6 @@
 import json
 import logging
 import os
-import joblib
 import pytest
 from prediction_service.prediction import form_response, api_response
 import prediction_service
@@ -75,4 +74,3 @@ def test_api_response_incorrect_col(data=input_data["incorrect_col"]):
     res = api_response(data)
     assert res["response"] == prediction_service.prediction.NotInCols().message
 
-    
