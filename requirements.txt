@@ -13,3 +13,4 @@ importlib-metadata==4.13.0
 flask
 gunicorn
 joblib
+scikit-learn
