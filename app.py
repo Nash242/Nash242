@@ -15,11 +15,14 @@ app = Flask(__name__, static_folder=static_dir,template_folder=template_dir)
 @app.route("/", methods=["GET", "POST"])
 def index():
 
+    print("index")
     if request.method == "POST":
         try:
             if request.form:
                 dict_req = dict(request.form)
+                print(dict)
                 response = prediction.form_response(dict_req)
+                print(response)
                 return render_template("index.html", response=response)
             elif request.json:
                 response = prediction.api_response(request.json)
